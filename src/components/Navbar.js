@@ -1,7 +1,7 @@
 import { faIdCard } from '@fortawesome/free-regular-svg-icons';
 import { faDisplay, faHomeLg, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React from 'react';
 import { NavHashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {

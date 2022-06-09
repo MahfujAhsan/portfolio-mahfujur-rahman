@@ -12,7 +12,7 @@ const About = () => {
                 <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className="fs-2">About Me</h2>
             </div>
             <div className='row g-5 py-5 d-flex justify-content-between align-items-center'>
-                <img className='col-12 col-lg-5 rounded-3 img-fluid mx-auto rounded-3 shadow-lg' src={photo} alt="" />
+                <img className='col-12 col-lg-5 img-fluid mx-auto rounded-3' src={photo} alt="" />
                 <div className='col-12 col-lg-7'>
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
