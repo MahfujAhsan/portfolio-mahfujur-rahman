@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Manager Ltd. (manufacturer)",
+        "images": ["https://i.ibb.co/0CPhxHW/computer-manager3.png", "https://i.ibb.co/X5LXJkc/computer-manager4.png", "https://i.ibb.co/JpDdNkg/computer-manager6.png"],
+        "description": "authenticated firebase login (email-password & social both), ordered list, dynamic review system implemented on Dashboard (user role) Include admin authorization system, add & manage dynamic services/products & also admin can manage orders & user-list (admin role), admin & user routes are isolated each to other, payment method (stripe), stored users & admins foot-print on database, secret API, multi themed UI.",
+        "technologies-frontend": ["ReactJS", "TailwindCSS", "DaisyUI", "Firebase", "React Query", "Axios", "React Router Dom", "React StripeJS", "React Hook Form", "React Toastify", "Theme Change", "SweetAlert2", "AOS"],
+        "technologies-backend": ["JWT", "Cors", "DotEnv", "Stripe", "ExpressJS", "NodeJS", "MongoDB"],
+        "live-link": "https://computer-manager-3faf4.web.app/",
+        "client-side-link": "https://github.com/MahfujAhsan/computer-manager-client",
+        "server-side-link": "https://github.com/MahfujAhsan/computer-manager-server"
+    },
+    {
+        "id": 2,
+        "name": "Molinard Perfumer (Warehouse)",
+        "images": ["https://i.ibb.co/rs328yZ/molinard1.png", "https://i.ibb.co/rdfJKTY/molinard2.png", "https://i.ibb.co/mbNcLmS/molinard3.png"],
+        "description": "JWT modern authentication Include firebase login system, secured API, instance update quantity by input, one click quantity reduce, manage inventory, add products/service dynamically, user’s added items are isolated & person can managed them easily, all important interactivities stored in database.",
+        "technologies-frontend": ["ReactJS", "VanillaCSS", "Firebase", "React Query", "Axios", "React Router Dom", "React Hook Form", "React Toastify"],
+        "technologies-backend": ["JWT", "Cors", "DotEnv", "ExpressJS", "NodeJS", "MongoDB"],
+        "live-link": "https://molinard-perfumer.web.app/",
+        "client-side-link": "https://github.com/MahfujAhsan/warehouse-management-client",
+        "server-side-link": "https://github.com/MahfujAhsan/warehouse-management-server"
+    },
+    {
+        "id": 3,
+        "name": "Jade Mills (Independenth Service Provider)",
+        "images": ["https://i.ibb.co/cxnXgkj/jade-mills1.png", "https://i.ibb.co/2qP2rBq/jade-mills2.png", "https://i.ibb.co/SxhwXsS/Screenshot-3.png"],
+        "description": "Great user interface with ReactJSLive Link , bootstrap5, external component libraries, services are shown with standard layout, annoying long description’s inconsistent UI structure handled by read more button",
+        "technologies-frontend": ["ReactJS", "VanillaCSS", "Firebase"],
+        "live-link": "https://jade-mills-real-estate-agent.web.app/",
+        "client-side-link": "https://github.com/MahfujAhsan/warehouse-management-client"
+    }
+
+]
+
+
+
