@@ -20,7 +20,7 @@
         "server-side-link": "https://github.com/MahfujAhsan/warehouse-management-server"
     },
     {
-        "name": "Molinard Perfumer (Warehouse)",
+        "name": "Jade Mills (Independenth Service Provider)",
         "images": ["https://i.ibb.co/rs328yZ/molinard1.png", "https://i.ibb.co/rdfJKTY/molinard2.png", "https://i.ibb.co/mbNcLmS/molinard3.png"],
         "description": "JWT modern authentication Include firebase login system, secured API, instance update quantity by input, one click quantity reduce, manage inventory, add products/service dynamically, user’s added items are isolated & person can managed them easily, all important interactivities stored in database.",
         "technologies-frontend": ["ReactJS", "VanillaCSS", "Firebase", "React Query", "Axios", "React Router Dom", "React Hook Form", "React Toastify"],

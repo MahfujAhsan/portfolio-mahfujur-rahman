@@ -68,16 +68,16 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ maxHeight: '500px' }} className='img-fluid w-75 rounded' src={project1} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>TailwindCSS</span>
                         <span className='border border-2 px-3 rounded-3'>JavaScript</span>
                         <span className='border border-2 px-3 rounded-3'>ReactJS</span>
-                    </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    </div> */}
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>NodeJS</span>
                         <span className='border border-2 px-3 rounded-3'>ExpressJS</span>
                         <span className='border border-2 px-3 rounded-3'>MongoDB</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>
@@ -87,7 +87,7 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ maxHeight: '500px' }} className='img-fluid w-75 rounded-3' src={project2} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>Vanilla CSS</span>
                         <span className='border border-2 px-3 rounded-3'>JavaScript</span>
                         <span className='border border-2 px-3 rounded-3'>ReactJS</span>
@@ -96,7 +96,7 @@ const MyProjects = () => {
                         <span className='border border-2 px-3 rounded-3'>NodeJS</span>
                         <span className='border border-2 px-3 rounded-3'>ExpressJS</span>
                         <span className='border border-2 px-3 rounded-3'>MongoDB</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>
@@ -106,11 +106,11 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ maxHeight: '500px' }} className='img-fluid w-75 rounded-3' src={project3} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>React Bootstrap</span>
                         <span className='border border-2 px-3 rounded-3'>JavaScript</span>
                         <span className='border border-2 px-3 rounded-3'>ReactJS</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>
@@ -120,11 +120,11 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ maxHeight: '500px' }} className='img-fluid w-75 rounded-3' src={project5} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>HTML5</span>
                         <span className='border border-2 px-3 rounded-3'>CSS3</span>
                         <span className='border border-2 px-3 rounded-3'>JavaScript (ES6)</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>
@@ -134,11 +134,11 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ height: '500px' }} className='img-fluid w-75 rounded-3' src={project4} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>HTML5</span>
                         <span className='border border-2 px-3 rounded-3'>CSS3</span>
                         <span className='border border-2 px-3 rounded-3'>ES6</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>
@@ -148,11 +148,11 @@ const MyProjects = () => {
                     <div className='d-flex justify-content-center bg-image hover-zoom'>
                         <img style={{ height: '500px' }} className='img-fluid w-75 rounded-3' src={project6} alt="" />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mt-3'>
+                    {/* <div className='d-flex justify-content-between align-items-center mt-3'>
                         <span className='border border-2 px-3 rounded-3'>ReactJS</span>
                         <span className='border border-2 px-3 rounded-3'>TypeScript</span>
                         <span className='border border-2 px-3 rounded-3'>Redux</span>
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-center mt-4'>
                         <button onClick={handleModal} type="button" className="btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
                     </div>

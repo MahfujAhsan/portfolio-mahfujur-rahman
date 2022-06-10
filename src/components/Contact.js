@@ -1,9 +1,9 @@
 import { faFacebookMessenger, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import emailjs from "emailjs-com";
-import { useRef } from 'react';
-import React from 'react';
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import { faArrowRight, faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
     const form = useRef();
@@ -24,33 +24,33 @@ return (
                     <FontAwesomeIcon icon={faEnvelopeOpen} size="2x" />
                     <h2 className='fs-4'>Email</h2>
                     <p>mahfujur.rahman1@outlook.com</p>
-                    <a className='text-decoration-none text-white' href="mailto:mahfujur.rahman1@outlook.com" target="_blank">Send a message</a>
+                    <a className='text-decoration-none text-white' href="mailto:mahfujur.rahman1@outlook.com" target="_blank"><FontAwesomeIcon icon={faArrowRight} bounce /> Send a message</a>
                 </div>
                 <div style={{ backgroundColor: "#0B5ED7" }} className='text-white text-center py-3 rounded-3 my-3 w-75 mx-auto'>
                     <FontAwesomeIcon icon={faFacebookMessenger} size="2x" />
                     <h2 className='fs-4'>Facebook Messenger</h2>
                     <p>AhsaanMahfuj</p>
-                    <a className='text-decoration-none text-white' href="https://m.me/AhsaanMahfuj" target="_blank">Send a message</a>
+                    <a className='text-decoration-none text-white' href="https://m.me/AhsaanMahfuj" target="_blank"><FontAwesomeIcon icon={faArrowRight} bounce /> Send a message</a>
                 </div>
                 <div style={{ backgroundColor: "#0B5ED7" }} className='text-white text-center py-3 rounded-3 w-75 mx-auto'>
                     <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                     <h2 className='fs-4'>WhatsApp</h2>
                     <p>(+880) 1776529824</p>
-                    <a href="https://wa.me/+8801776529824" target="_blank">Send a message</a>
+                    <a className='text-decoration-none text-white' href="https://wa.me/+8801776529824" target="_blank"><FontAwesomeIcon icon={faArrowRight} bounce /> Send a message</a>
                 </div>
             </div>
             <div className='col-7 w-50'>
                 <form ref={form} onSubmit={sendEmail}>
                     <div class="form-outline">
-                        <input type="text" id="typeText" class="form-control border border-2 border-white py-3" />
+                        <input style={{backgroundColor: "#11365E"}} type="text" id="typeText" class="form-control border border-2 border-white py-3" />
                         <label class="form-label text-primary fw-bold mt-2" for="typeText">Your Full Name</label>
                     </div>
                     <div class="form-outline my-4">
-                        <input type="email" id="typeEmail" class="form-control border border-2 border-white py-3" />
+                        <input style={{backgroundColor: "#11365E"}}f type="email" id="typeEmail" class="form-control border border-2 border-white py-3" />
                         <label class="form-label text-primary fw-bold mt-2" for="typeEmail">Email input</label>
                     </div>
                     <div class="form-outline">
-                        <textarea class="form-control border border-2 border-white py-3" id="textAreaExample" rows="6"></textarea>
+                        <textarea style={{backgroundColor: "#11365E"}} class="form-control border border-2 border-white py-3" id="textAreaExample" rows="6"></textarea>
                         <label class="form-label text-primary fw-bold mt-2" for="textAreaExample">Message</label>
                     </div>
                     <div className='d-flex justify-content-center mt-3'>
