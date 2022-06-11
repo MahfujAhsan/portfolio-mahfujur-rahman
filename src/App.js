@@ -6,7 +6,9 @@ import Home from "./components/Home";
 import Modal from "./components/Modal";
 import MyProjects from "./components/MyProjects";
 import Navbar from "./components/Navbar";
-import NoMatch from "./components/NoMatch";
+import ProjectDetails from "./components/ProjectDetails";
+import NoMatch from "./NoMatch/NoMatch";
+
 
 
 function App() {
@@ -14,14 +16,11 @@ function App() {
     <div style={{ backgroundColor: '#11365E' }} className="mh-100">
       <Navbar />
       <Routes>
-        <Route path='/project/:id' element={<Modal />} />
+        <Route path="*" element={<NoMatch/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path='/projects/:projectId' element={<ProjectDetails/>} />
         {/* <Route path="*" element={<NoMatch />} /> */}
       </Routes>
-      <Home />
-      <About />
-      <MyProjects />
-      <Contact />
-      <Footer />
     </div>
   );
 }

@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { NavHashLink } from 'react-router-hash-link';
 import { faUpDown } from '@fortawesome/free-solid-svg-icons';
+import About from './About';
+import MyProjects from './MyProjects';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => {
     const [isHovering, setIsHovering] = useState(false);
@@ -53,6 +57,10 @@ const Home = () => {
                     </NavHashLink>
                 </div>
             </div>
+            <About />
+      <MyProjects />
+      <Contact />
+      <Footer />
         </div>
     );
 };
