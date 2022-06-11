@@ -1,10 +1,10 @@
 import React from 'react';
+import comings from "../assets/coming.png"
 
 const blog = () => {
     return (
-        <div className='py-5 vh-100'>
-            <h2 className='text-center text-white'>This is Blogs</h2>
-            <h3 className='text-center text-white fs-1 fw-bold'>Comming Soon...</h3>
+        <div className='vh-100'>
+            <img className='img-fluid' src={comings} alt="" />
         </div>
     );
 };

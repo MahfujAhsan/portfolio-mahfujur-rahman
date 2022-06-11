@@ -10,6 +10,7 @@ import About from './About';
 import MyProjects from './MyProjects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Skills from './Skills';
 
 const Home = () => {
     const [isHovering, setIsHovering] = useState(false);
@@ -33,12 +34,12 @@ const Home = () => {
                 </div>
                 <div className='d-flex justify-content-between align-items-center w-100 mx-auto mt-5'>
                     <div className='d-flex flex-column justify-content-between'>
-                        <a href="https://www.linkedin.com/in/mahfujurahman/" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faLinkedin} size="xl" /></a>
-                        <a href="https://github.com/MahfujAhsan" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faGithub} size="xl" className='my-5' /></a>
-                        <a href="https://www.facebook.com/AhsaanMahfuj" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faFacebook} size="xl" /></a>
+                        <a href="https://www.linkedin.com/in/mahfujurahman/" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faLinkedin} size="2x" title='Linkedin' beatFade/></a>
+                        <a href="https://github.com/MahfujAhsan" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faGithub} size="2x" className='my-5' title='GitHub'beatFade/></a>
+                        <a href="https://www.facebook.com/AhsaanMahfuj" target="_blank" className='text-decoration-none text-white'><FontAwesomeIcon icon={faFacebook} size="2x" title='Facebook' beatFade/></a>
 
                     </div>
-                    <div className='w-50 d-flex justify-content-center align-items-center'>
+                    <div  data-aos="zoom-in" data-aos-duration="1000" className='w-50 d-flex justify-content-center align-items-center'>
                         <img className='rounded-3 img-fluid' src={profile} alt="" />
                     </div>
                     <NavHashLink to="#about" role="button" className='d-flex flex-column justify-content-end align-items-end fs-6 font-monospace lh-1 text-decoration-none text-white font-bold'>
@@ -57,6 +58,7 @@ const Home = () => {
                     </NavHashLink>
                 </div>
             </div>
+            <Skills/>
             <About />
             <MyProjects />
             <Contact />

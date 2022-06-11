@@ -17,18 +17,18 @@ const ProjectDetails = () => {
         <div className='py-5 container w-full'>
             <h3 className='pb-2 text-white text-center'>{projectDetails.name}</h3>
             <div className='w-75 mx-auto pb-3'>
-                <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+                <div data-aos="zoom-in" data-aos-duration="1500" id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
                     <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
-                            <img style={{ maxHeight: "450px" }} src={projectDetails.images1} class="d-block w-100" alt="Wild Landscape" />
+                            <img style={{ maxHeight: "450px" }} src={projectDetails.images1} class="d-block w-100" alt="" />
 
                         </div>
                         <div class="carousel-item">
-                            <img style={{ maxHeight: "450px" }} src={projectDetails.images2} class="d-block w-100" alt="Camera" />
+                            <img style={{ maxHeight: "450px" }} src={projectDetails.images2} class="d-block w-100" alt="" />
 
                         </div>
                         <div class="carousel-item">
-                            <img style={{ maxHeight: "450px" }} src={projectDetails.images3} class="d-block w-100" alt="Exotic Fruits" />
+                            <img style={{ maxHeight: "450px" }} src={projectDetails.images3} class="d-block w-100" alt="" />
 
                         </div>
                     </div>
