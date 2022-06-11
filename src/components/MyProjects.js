@@ -12,7 +12,7 @@ const MyProjects = () => {
     }, []);
     return (
         <div>
-            <div className='container mt-5 text-white' id='myProjects'>
+            <div className='container text-white' id='myProjects'>
                 <div className='text-center text-white mb-5'>
                     <h4>My Recent</h4>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className="fs-2">Projects</h2>
