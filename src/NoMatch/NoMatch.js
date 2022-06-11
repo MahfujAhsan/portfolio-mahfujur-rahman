@@ -1,9 +1,10 @@
 import React from 'react';
+import notfound from "../assets/notFound.gif"
 
 const NoMatch = () => {
     return (
         <div>
-            <h2>Not Found</h2>
+            <img className='w-100' src={notfound} alt="" />
         </div>
     );
 };

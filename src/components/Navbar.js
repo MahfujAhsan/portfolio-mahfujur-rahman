@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link smooth to="/"><FontAwesomeIcon className='text-white' icon={faHomeLg} size="2x" /></Link>
                 <Link smooth to="#about"><FontAwesomeIcon className='text-white' icon={faUser} size="2x" /></Link>
                 <Link smooth to="#myProjects"><FontAwesomeIcon className='text-white' icon={faDisplay} size="2x" /></Link>
-                <Link smooth to="#blog"><FontAwesomeIcon className='text-white' icon={faBlog} size="2x" /></Link>
+                <Link smooth to="/blog"><FontAwesomeIcon className='text-white' icon={faBlog} size="2x" /></Link>
                 <Link smooth to="#contact"><FontAwesomeIcon className='text-white' icon={faIdCard} size="2x" /></Link>
             </nav>
         </div>

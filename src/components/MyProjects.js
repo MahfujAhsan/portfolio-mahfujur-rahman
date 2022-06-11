@@ -5,7 +5,7 @@ import Projects from './Projects';
 const MyProjects = () => {
     const [project, setProject] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/projects`
+        const url = `https://floating-escarpment-17462.herokuapp.com/projects`
         fetch(url)
             .then(res => res.json())
             .then(data => setProject(data))

@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import Modal from './Modal';
-import MyProjects from './MyProjects';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Projects = ({ myProject }) => {
-    const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate();
 
     const handleModal = id => {
@@ -18,7 +15,7 @@ const Projects = ({ myProject }) => {
                     <img style={{ height: '500px' }} className='img-fluid w-75 rounded' src={myProject.img} alt="" />
                 </div>
                 <div className='d-flex justify-content-center mt-4'>
-                    <button onClick={() => handleModal(myProject._id)} type="button" className='btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold' data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
+                    <button onClick={() => handleModal(myProject._id)} type="button" className='btn btn-outline-light btn-rounded w-50 border border-2 border-primary fw-bold'>Details</button>
                 </div>
             </div>
         </div>

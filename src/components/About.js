@@ -63,8 +63,8 @@ const About = () => {
                         <br />
                         <b>Tools:</b> GitHub, Chrome Dev. Tool, VS Code, Heroku, Netlify, Firebase.
                     </p>
-                    <p className='text-white fs-6'>I acquired minimum knowledge enough confidently about all of this technology. I love to explore & implement. So, I would love to do it, if you ask me to do it for finding your perfect fit. <br /> Feel free to reach me at <FontAwesomeIcon icon={faArrowRight}/>  <a className='text-white text-decoration-none fw-bold' href="mailto: mahfujur.rahman1@outlook.com">mahfujur.rahman1@outlook.com</a> <br />
-                        Take a look at my work <FontAwesomeIcon icon={faArrowRight}/> <a className='text-white text-decoration-none fw-bold' href="https://github.com/MahfujAhsan">GitHub</a></p>
+                    <p className='text-white fs-6'>I acquired minimum knowledge enough confidently about all of this technology. I love to explore & implement. So, I would love to do it, if you ask me to do it for finding your perfect fit. <br /> Feel free to reach me at <FontAwesomeIcon style={{color: '#6E4035'}} icon={faArrowRight} size="xl"/>  <a className='text-white text-decoration-none fw-bold' href="mailto: mahfujur.rahman1@outlook.com">mahfujur.rahman1@outlook.com</a> <br />
+                        Take a look at my work <FontAwesomeIcon style={{color: '#6E4035'}}  icon={faArrowRight} size="xl"/> <a className='text-white text-decoration-none fw-bold' href="https://github.com/MahfujAhsan">GitHub</a></p>
                 </div>
             </div>
         </div>

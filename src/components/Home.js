@@ -42,7 +42,7 @@ const Home = () => {
                         <img className='rounded-3 img-fluid' src={profile} alt="" />
                     </div>
                     <NavHashLink to="#about" role="button" className='d-flex flex-column justify-content-end align-items-end fs-6 font-monospace lh-1 text-decoration-none text-white font-bold'>
-                        <FontAwesomeIcon icon={faUpDown} size="1x" bounce/>
+                        <FontAwesomeIcon icon={faUpDown} size="1x" bounce />
                         <span>S</span>
                         <span>c</span>
                         <span>r</span>
@@ -58,9 +58,9 @@ const Home = () => {
                 </div>
             </div>
             <About />
-      <MyProjects />
-      <Contact />
-      <Footer />
+            <MyProjects />
+            <Contact />
+            <Footer />
         </div>
     );
 };
