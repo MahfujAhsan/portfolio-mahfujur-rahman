@@ -1,19 +1,9 @@
-import { faArrowCircleRight, faArrowLeft, faArrowRight, faArrowRightToBracket, faArrowsLeftRightToLine } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
-import { Link as button, useNavigate, useParams } from 'react-router-dom';
-import project1 from "../assets/computer-manager.png";
-import project2 from "../assets/molinard.png";
-import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
-import project6 from "../assets/rmahfujurahman.png"
-import Modal from './Modal';
+
 import Projects from './Projects';
 
 const MyProjects = () => {
     const [project, setProject] = useState([]);
-    const [modal, setModal] = useState(null);
     useEffect(() => {
         const url = `http://localhost:5000/projects`
         fetch(url)
@@ -29,7 +19,7 @@ const MyProjects = () => {
                 </div>
                 <div className='row g-5'>
                     {
-                        project.map(myProject => <Projects key={myProject._id} myProject={myProject} setModal={setModal} />)
+                        project.map(myProject => <Projects key={myProject._id} myProject={myProject} />)
                     }
                 </div>
             </div>
