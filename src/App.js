@@ -14,7 +14,7 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div style={{ backgroundColor: '#11365E' }} className="mh-100">
+    <div style={{ backgroundColor: '#11365E' }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,8 +1,7 @@
-@import '~mdb-ui-kit/css/mdb.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
 body {
   margin: 0;
+  padding: 0;
   overflow-x: hidden;
   font-family: 'Kdam Thmor Pro', sans-serif;
   -webkit-font-smoothing: antialiased;

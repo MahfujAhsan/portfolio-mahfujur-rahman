@@ -6,17 +6,15 @@ import photo from "../assets/mahfuj1.jpg"
 
 const About = () => {
     return (
-        <div className='container mt-5 mh-100' id='about'>
+        <div className='container container-md mt-5' id='about'>
             <div className='text-center text-white'>
-                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem'}}>Get To Know</h4>
+                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>Get To Know</h4>
                 <h2 className="fs-2">About Me</h2>
             </div>
-            <div className='row g-5 py-5 d-flex justify-content-between align-items-center'>
-                <div data-aos="zoom-in-down" data-aos-duration="1000" className='col-12 col-lg-5 img-fluid mx-auto'>
-                    <img className='rounded-3' style={{ maxWidth: '475px'}} src={photo} alt="" />
-                </div>
-                <div style={{border: '2px solid #6E4035'}} data-aos="zoom-out"
-                    data-aos-duration="2000" className='col-12 col-lg-7 py-4 rounded-3'>
+            <div className='row gy-5 py-5 px-2'>
+                <img data-aos="fade-right" data-aos-duration="1000" className='rounded-3 col-12 col-lg-5 img-fluid'  src={photo} alt="" />
+                <div style={{ border: '2px solid #6E4035' }} data-aos="fade-left"
+                    data-aos-duration="1000" className='col-12 col-lg-7 px-3 py-4'>
                     <p className='text-white fs-6'>HeY, I'm Mahfujur Rahman. This is introducing you to a self-learner/self-motivated programmer. I am a Front End developer with builds websites and web applications.</p>
                     <p className='text-white'>
                         I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. I’m also a people-person. I love meeting new people and learning about their lives and their backgrounds.

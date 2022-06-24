@@ -1,4 +1,4 @@
-import { faChrome, faCss3, faGithub, faGithubSquare, faHtml5, faJs, faNode, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faChrome, faCss3, faGithub, faHtml5, faJs, faNode, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faHammer, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -17,12 +17,11 @@ const Skills = () => {
     return (
         <div className='container pt-5 my-5'>
             <div className='text-center text-white'>
-                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem'}}>The Act Of</h4>
+                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>The Act Of</h4>
                 <h2 className="fs-2">My Specialization</h2>
             </div>
-            <div className='row pt-5 g-5'>
-                <div data-aos="zoom-in"
-                    data-aos-duration="2000" className='col-12 col-lg-6 shadow-lg'>
+            <div className='row pt-5 g-0 lg-g-5'>
+                <div data-aos="zoom-in" data-aos-duration="2000" className='col-12 col-lg-6 shadow-lg'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faTrophy} style={{ color: '#6E4035' }} size='xl' bounce /> Skills</h2>
                     <div className='text-white d-flex justify-content-between mt-5'>
                         <div className='text-start'>
@@ -43,11 +42,10 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="zoom-out"
-                    data-aos-duration="2000" className='col-12 col-lg-6'>
+                <div data-aos="zoom-out" data-aos-duration="2000" className='col-12 col-lg-6'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faHammer} style={{ color: '#6E4035' }} size='xl' bounce /> Tools</h2>
                     <div className='text-white mt-5 d-flex justify-content-center align-items-center'>
-                        <div className='text-start row w-100'>
+                        <div className='text-start row w-75'>
                             <div className='col-7'>
                                 <p><FontAwesomeIcon icon={faGithub} size="2x" /> GitHub</p>
                                 <p><FontAwesomeIcon icon={faChrome} size="2x" /> Chrome Dev. Tool</p>

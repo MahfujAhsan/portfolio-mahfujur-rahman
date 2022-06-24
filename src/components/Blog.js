@@ -3,8 +3,8 @@ import comings from "../assets/coming.png"
 
 const blog = () => {
     return (
-        <div className='vh-100'>
-            <img className='img-fluid' src={comings} alt="" />
+        <div className='w-50 mx-auto'>
+            <img className='img-fluid m-5 rounded-3' src={comings} alt="" />
         </div>
     );
 };

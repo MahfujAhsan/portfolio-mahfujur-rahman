@@ -1,12 +1,10 @@
 import React from 'react';
-import { useQuery } from 'react-query'
-
+import { useQuery } from 'react-query';
 import Projects from './Projects';
 import Spinner from './Spinner';
 
 const MyProjects = () => {
     const {data:project, isLoading, refetch } = useQuery('project', () => fetch(`https://floating-escarpment-17462.herokuapp.com/projects`).then(res => res.json()));
-
     if(isLoading) {
         return <Spinner/>
     }
@@ -17,7 +15,7 @@ const MyProjects = () => {
                     <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>My Recent</h4>
                     <h2 className="fs-2">Projects</h2>
                 </div>
-                <div className='row g-5'>
+                <div className='row g-0 md:g-5'>
                     {
                         project.slice(-6).map(myProject => <Projects key={myProject._id} myProject={myProject} refetch={refetch} />)
                     }
