@@ -20,7 +20,6 @@ const Contact = () => {
             </div>
             <div className='row'>
                 <div data-aos="fade-right"
-                    data-aos-offset="200"
                     data-aos-easing="ease-in-sine" className='col-12 col-lg-5'>
                     <div className=' border border-2 border-white text-white text-center py-3 rounded-3 w-75 mx-auto'>
                         <FontAwesomeIcon className='text-danger' icon={faEnvelopeOpen} size="2x" />
@@ -42,8 +41,8 @@ const Contact = () => {
                     </div>
                 </div>
                 <div data-aos="flip-right"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className='col-12 col-lg-7 w-50 mx-auto mt-5'>
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="500" className='col-12 col-lg-7 w-50 mx-auto mt-5'>
                     <form ref={form} onSubmit={sendEmail}>
                         <div class="form-outline">
                             <input style={{ backgroundColor: "#11365E" }} type="text" id="typeText" class="form-control border border-2 border-white py-3" />
