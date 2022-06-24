@@ -12,9 +12,7 @@ const MyProjects = () => {
     }
     return (
         <div id='#myProjects'>
-            <div data-aos="fade"
-             data-aos-easing="linear"
-     data-aos-duration="3000" className='container text-white' id='myProjects'>
+            <div className='container text-white' id='myProjects'>
                 <div className='text-center text-white mb-5'>
                     <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>My Recent</h4>
                     <h2 className="fs-2">Projects</h2>

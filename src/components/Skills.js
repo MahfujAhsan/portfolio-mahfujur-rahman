@@ -1,5 +1,5 @@
-import { faBootstrap, faChrome, faCss3, faGithub, faGithubSquare, faHtml5, faJs, faNode, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faCheckCircle, faHammer, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { faChrome, faCss3, faGithub, faGithubSquare, faHtml5, faJs, faNode, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faHammer, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import express from "../assets/logos/express.png";

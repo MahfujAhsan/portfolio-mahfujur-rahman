@@ -9,7 +9,11 @@ const Projects = ({ myProject, refetch }) => {
     };
     refetch();
     return (
-        <div className='col-12 col-lg-4'>
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            data-offset="200"
+            className='col-12 col-lg-4'>
             <h4 className='fs-6 text-center py-2'>{myProject.name}</h4>
             <div>
                 <div className='d-flex justify-content-center bg-image hover-zoom'>

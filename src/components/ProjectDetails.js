@@ -1,18 +1,19 @@
 import { faGithub, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 import { faArrowLeft, faArrowRight, faTowerBroadcast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
+import { useQuery } from 'react-query'
+import Spinner from './Spinner';
 
 const ProjectDetails = () => {
     const { projectId } = useParams();
-    const [projectDetails, setProjectDetails] = useState({});
-    useEffect(() => {
-        fetch(`https://floating-escarpment-17462.herokuapp.com/projects/${projectId}`)
-            .then(res => res.json())
-            .then(data => setProjectDetails(data))
-    }, [projectId]);
-    console.log(projectDetails)
+    const { data: projectDetails, isLoading, refetch } = useQuery('projectDetails', () => fetch(`https://floating-escarpment-17462.herokuapp.com/projects/${projectId}`).then(res => res.json()));
+
+    if (isLoading) {
+        return <Spinner />
+    }
+
     return (
         <div className='py-5 container w-full'>
             <h3 className='pb-2 text-white text-center'>{projectDetails.name}</h3>
@@ -50,13 +51,13 @@ const ProjectDetails = () => {
                 <h4 className='text-center text-white'>All Links</h4>
                 <div className='d-flex justify-content-around py-3'>
                     <div className='text-white text-center py-2'>
-                        <p><a className='text-decoration-none text-white fw-bold' href={projectDetails.liveLink} target="_blank"><FontAwesomeIcon title='Live Link' icon={faTowerBroadcast} size="3x" bounce/></a></p>
+                        <p> <a className='text-decoration-none text-white fw-bold' href={projectDetails.clientSideLink} target="_blank"><FontAwesomeIcon title='Client Side GitHub' icon={faGithub} size="3x" /></a></p>
                     </div>
                     <div className='text-white text-center py-2'>
-                        <p> <a className='text-decoration-none text-white fw-bold' href={projectDetails.clientSideLink} target="_blank"><FontAwesomeIcon title='Client Side GitHub' icon={faGithub} size="3x" bounce/></a></p>
+                        <p><a className='text-decoration-none text-white fw-bold' href={projectDetails.liveLink} target="_blank"><FontAwesomeIcon title='Live Link' icon={faTowerBroadcast} size="3x" beat /></a></p>
                     </div>
                     <div className='text-white text-center py-2'>
-                        <p> <a className='text-decoration-none text-white fw-bold' href={projectDetails.serverSideLink} target="_blank"><FontAwesomeIcon title='Server Side GitHub' icon={faGithubAlt} size="3x" bounce/></a></p>
+                        <p> <a className='text-decoration-none text-white fw-bold' href={projectDetails.serverSideLink} target="_blank"><FontAwesomeIcon title='Server Side GitHub' icon={faGithubAlt} size="3x" /></a></p>
                     </div>
                 </div>
                 <div className='text-white text-center py-2'>
