@@ -1,16 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Projects = ({ myProject }) => {
+const Projects = ({ myProject, refetch }) => {
     const navigate = useNavigate();
 
     const handleModal = id => {
         navigate(`/projects/${id}`)
     };
+    refetch();
     return (
-        <div className='col-12 col-lg-4' data-aos="flip-left" data-aos-duration="1500">
+        <div className='col-12 col-lg-4'>
             <h4 className='fs-6 text-center py-2'>{myProject.name}</h4>
-            <div className=''>
+            <div>
                 <div className='d-flex justify-content-center bg-image hover-zoom'>
                     <img style={{ height: '500px' }} className='img-fluid w-75 rounded' src={myProject.img} alt="" />
                 </div>

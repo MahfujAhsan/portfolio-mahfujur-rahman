@@ -17,13 +17,12 @@ const Skills = () => {
     return (
         <div className='container pt-5 my-5'>
             <div className='text-center text-white'>
-                <h4>The Act Of</h4>
-                <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className="fs-2">My Specialization</h2>
+                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem'}}>The Act Of</h4>
+                <h2 className="fs-2">My Specialization</h2>
             </div>
             <div className='row pt-5 g-5'>
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="1500" className='col-12 col-lg-6 shadow-lg'>
+                <div data-aos="zoom-in"
+                    data-aos-duration="2000" className='col-12 col-lg-6 shadow-lg'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faTrophy} style={{ color: '#6E4035' }} size='xl' bounce /> Skills</h2>
                     <div className='text-white d-flex justify-content-between mt-5'>
                         <div className='text-start'>
@@ -44,8 +43,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-right"
-                    data-aos-easing="ease-out-cubic"
+                <div data-aos="zoom-out"
                     data-aos-duration="2000" className='col-12 col-lg-6'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faHammer} style={{ color: '#6E4035' }} size='xl' bounce /> Tools</h2>
                     <div className='text-white mt-5 d-flex justify-content-center align-items-center'>

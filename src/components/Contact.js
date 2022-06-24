@@ -14,8 +14,8 @@ const Contact = () => {
     return (
         <div id='contact' className='container py-5'>
             <div className='text-center text-white mb-5'>
-                <h4>Get In Touch</h4>
-                <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className="fs-2">Contact Me</h2>
+                <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>Get In Touch</h4>
+                <h2 className="fs-2">Contact Me</h2>
 
             </div>
             <div className='row'>

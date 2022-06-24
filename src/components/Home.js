@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import resume from "../assets/Mahfujur_Rahman_Resume1.pdf";
-import profile from "../assets/mahfuj1.jpg";
+import resume from "../assets/Mahfujur_Rahman_Resume.pdf";
+import profile from "../assets/mahfuj5.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { NavHashLink } from 'react-router-hash-link';
@@ -40,7 +40,7 @@ const Home = () => {
 
                     </div>
                     <div  data-aos="zoom-in" data-aos-duration="1000" className='w-50 d-flex justify-content-center align-items-center'>
-                        <img className='rounded-3 img-fluid' src={profile} alt="" />
+                        <img style={{maxWidth: "350px"}} className='rounded-3 img-fluid' src={profile} alt="" />
                     </div>
                     <NavHashLink to="#about" role="button" className='d-flex flex-column justify-content-end align-items-end fs-6 font-monospace lh-1 text-decoration-none text-white font-bold'>
                         <FontAwesomeIcon icon={faUpDown} size="1x" bounce />
