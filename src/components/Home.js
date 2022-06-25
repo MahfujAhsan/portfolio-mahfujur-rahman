@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import resume from "../assets/Mahfujur_Rahman_Resume.pdf";
-import profile from "../assets/linkedin-pp.jpg";
+import profile from "../assets/mahfujur_rahman.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { NavHashLink } from 'react-router-hash-link';
