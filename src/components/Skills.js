@@ -20,10 +20,10 @@ const Skills = () => {
                 <h4 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }}>The Act Of</h4>
                 <h2 className="fs-2">My Specialization</h2>
             </div>
-            <div className='row pt-5 g-0 lg-g-5'>
+            <div className='row pt-5 g-5'>
                 <div data-aos="zoom-in" data-aos-duration="2000" className='col-12 col-lg-6 shadow-lg'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faTrophy} style={{ color: '#6E4035' }} size='xl' bounce /> Skills</h2>
-                    <div className='text-white d-flex justify-content-between mt-5'>
+                    <div className='text-white d-flex justify-content-between mt-5 px-3'>
                         <div className='text-start'>
                             <p><FontAwesomeIcon icon={faHtml5} style={{ color: '#DD4B25' }} size="2x" /> HTML5</p>
                             <p><FontAwesomeIcon icon={faCss3} style={{ color: '#254BDD' }} size="2x" /> CSS3</p>
@@ -44,14 +44,14 @@ const Skills = () => {
                 </div>
                 <div data-aos="zoom-out" data-aos-duration="2000" className='col-12 col-lg-6'>
                     <h2 style={{ fontFamily: 'Kdam Thmor Pro', letterSpacing: '0.5rem' }} className='text-white fs-4 text-center'><FontAwesomeIcon icon={faHammer} style={{ color: '#6E4035' }} size='xl' bounce /> Tools</h2>
-                    <div className='text-white mt-5 d-flex justify-content-center align-items-center'>
-                        <div className='text-start row w-75'>
-                            <div className='col-7'>
+                    <div className='text-white mt-5 px-3'>
+                        <div className='d-flex flex-column'>
+                            <div className='w-100 text-center'>
                                 <p><FontAwesomeIcon icon={faGithub} size="2x" /> GitHub</p>
                                 <p><FontAwesomeIcon icon={faChrome} size="2x" /> Chrome Dev. Tool</p>
                                 <p><img src={firebase} alt="" />  Firebase</p>
                             </div>
-                            <div className='col-5'>
+                            <div className='w-100 text-center'>
                                 <p><img src={vscode} alt="" />  VSCode</p>
                                 <p><img src={netlify} alt="" />  Netlify</p>
                                 <p><img src={heroku} alt="" />  Heroku</p>
