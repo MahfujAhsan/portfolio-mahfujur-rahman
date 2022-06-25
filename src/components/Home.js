@@ -21,7 +21,7 @@ const Home = () => {
         setIsHovering(false);
     };
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className='container container-md max-vh-100 d-flex flex-column justify-content-center align-items-center text-white' id='home'>
                 <div className='text-center mt-5'>
                     <h4>HeY, I'm</h4>
